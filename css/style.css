@@ -141,13 +141,19 @@ body::before {
 .logo {
   font-size: 1.5rem;
   font-weight: 700;
-  color: var(--text-primary);
+  background: linear-gradient(135deg, var(--accent-cyan), var(--accent-purple), var(--accent-pink));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   text-decoration: none;
-  transition: transform var(--transition-speed) ease;
+  transition: all var(--transition-speed) ease;
+  filter: drop-shadow(0 0 20px rgba(6, 255, 165, 0.3));
+  position: relative;
 }
 
 .logo:hover {
   transform: scale(1.05);
+  filter: drop-shadow(0 0 30px rgba(6, 255, 165, 0.5)) drop-shadow(0 0 15px rgba(255, 0, 110, 0.4));
 }
 
 .gradient-text {
