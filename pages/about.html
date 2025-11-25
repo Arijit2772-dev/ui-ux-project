@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About - Arijit Singh</title>
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body data-theme="dark">
+    <nav class="navbar">
+      <div class="nav-container">
+        <a href="../index.html" class="logo">Arijit<span class="gradient-text">.</span></a>
+
+        <button class="hamburger" id="hamburger" aria-label="Menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <div class="nav-menu" id="nav-menu">
+          <a href="../index.html" class="nav-link">Home</a>
+          <a href="about.html" class="nav-link active">About</a>
+          <a href="skills.html" class="nav-link">Skills</a>
+          <a href="project.html" class="nav-link">Projects</a>
+          <a href="contact.html" class="nav-link">Contact</a>
+          <a href="contact.html" class="nav-btn">Contact Me</a>
+        </div>
+
+        <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
+          <span class="theme-icon">🌙</span>
+        </button>
+      </div>
+    </nav>
+
+    <main>
+      <section class="page-section">
+        <div class="container">
+          <div class="page-header fade-in">
+            <h1 class="page-title">About <span class="gradient-text">Me</span></h1>
+          </div>
+
+          <div class="about-content">
+            <div class="about-grid">
+              <div class="glass-card about-intro fade-in">
+                <div class="intro-icon">💻</div>
+                <p class="about-text">
+                  I'm someone who enjoys digging into how computers actually work — from CPU instructions
+                  and memory layout to networking and operating system internals. I like working close to
+                  the metal, optimizing systems, and understanding what's happening beneath abstractions.
+                </p>
+              </div>
+
+              <div class="glass-card about-focus fade-in">
+                <h3 class="focus-title">Current Focus</h3>
+                <div class="focus-items">
+                  <div class="focus-item">
+                    <span class="focus-icon">📚</span>
+                    <span>Data Structures & Algorithms</span>
+                  </div>
+                  <div class="focus-item">
+                    <span class="focus-icon">⚙️</span>
+                    <span>Operating Systems</span>
+                  </div>
+                  <div class="focus-item">
+                    <span class="focus-icon">🔧</span>
+                    <span>Computer Architecture</span>
+                  </div>
+                  <div class="focus-item">
+                    <span class="focus-icon">🚀</span>
+                    <span>Systems Programming</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="stats-grid fade-in">
+              <div class="stat-card glass-card">
+                <div class="stat-value">2+</div>
+                <div class="stat-label">Major Projects</div>
+              </div>
+              <div class="stat-card glass-card">
+                <div class="stat-value">10+</div>
+                <div class="stat-label">Technologies</div>
+              </div>
+              <div class="stat-card glass-card">
+                <div class="stat-value">∞</div>
+                <div class="stat-label">Learning</div>
+              </div>
+            </div>
+
+            <div class="timeline fade-in">
+              <h2 class="timeline-title">Journey</h2>
+
+              <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                  <h3>Started exploring low-level programming and C++</h3>
+                  <p>Began diving into systems programming, understanding memory management and performance optimization.</p>
+                </div>
+              </div>
+
+              <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                  <h3>Built TrackShift: fault-tolerant file transfer pipeline</h3>
+                  <p>Developed a reliable encrypted file transfer system with chunking, retry logic, and integrity checks.</p>
+                </div>
+              </div>
+
+              <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                  <h3>Built p2p-grid: distributed compute resource sharing platform</h3>
+                  <p>Created a peer-to-peer platform for collaborative computing with credit-based resource exchange.</p>
+                </div>
+              </div>
+
+              <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                  <h3>Diving deeper into OS, DSA, and computer architecture</h3>
+                  <p>Continuously learning and strengthening foundations to build more efficient low-level systems.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>© <span id="year"></span> Arijit Singh · Built close to the metal.</p>
+    </footer>
+
+    <script src="../js/main.js"></script>
+  </body>
+</html>
