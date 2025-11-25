@@ -2,6 +2,10 @@
 
 Personal portfolio website showcasing systems engineering projects and skills.
 
+## 🌐 Live Demo
+
+**[View Live Site](https://arijit2772-dev.github.io/ui-ux-project/)**
+
 ## 📁 Project Structure
 
 ```
@@ -56,6 +60,30 @@ npm run preview
 - Vite build tool
 - Devicons for technology logos
 - Custom SVG graphics
+- GitHub Pages for deployment
+- GitHub Actions for CI/CD
+
+## 🚀 Deployment
+
+This site is automatically deployed to GitHub Pages using GitHub Actions.
+
+- **Live URL**: https://arijit2772-dev.github.io/ui-ux-project/
+- **Deployment**: Automatic on push to `main` branch
+- **Workflow**: `.github/workflows/deploy.yml`
+
+### Manual Deployment
+
+To manually trigger a deployment:
+
+```bash
+gh workflow run deploy.yml
+```
+
+Or push changes to the `main` branch:
+
+```bash
+git push origin main
+```
 
 ## 📄 License
 
